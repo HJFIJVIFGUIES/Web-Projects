@@ -1,0 +1,131 @@
+body {
+    background-color:rgb(23, 15, 5);
+}
+
+#head1 {
+    color: gold;
+    text-align: center;
+    text-decoration: double underline black;
+    text-shadow: 0px 0px 20px;
+    /* animation-name: head1; */
+    /* animation-duration: 5s; */
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes head1 {
+    /* 0% {
+        margin-left: -100px;
+        width: 0;
+    }
+
+    25% {
+        text-shadow: 0px 0px 5px;
+    }
+
+    50% {
+        text-shadow: 0px 0px 10px;
+    }
+
+    75% {
+        text-shadow: 0px 0px 15px;
+    } 
+
+    100% {
+        text-shadow: 0px 0px 25px;
+        width: 150px;
+    } */
+}
+
+.main {
+    /* width: 300px; */
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#name #head2 {
+    opacity: 1;
+    font-size: 60px;
+    color:burlywood;
+    animation-name: head2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes head2 {
+    /*
+    0% {  
+        box-shadow: 0px 0px -20px yellow;
+    }
+    
+    25% {
+        box-shadow: 0px 0px 10px yellow;
+    }
+
+    50% {
+        box-shadow: 0px 0px 15px yellow;
+    }
+
+    75% {
+        box-shadow: 0px 0px 20px yellow;
+    }
+
+    85% {
+        box-shadow: 0px 0px 20px yellow;
+    } */
+
+    100% {
+        text-shadow: 0px 0px 20px yellow;
+        /* box-shadow: 0px 0px 20px yellow; */
+    }
+}
+
+#name #para1 {
+    color: white;
+    top: -40px;
+    left: 160px;
+    position: relative;
+    animation-name: para1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes para1 {
+    0% {
+        color: #10179b;
+    }
+
+    50% {
+        color: #be26b1;
+    }
+
+    75% {
+        color: #f6f964;
+    }
+
+    100% {
+        color: #0b0b09;
+    }
+}
+
+footer {
+    background-color: black;
+    height: 300px;
+}
+
+footer #head4 {
+    top: 20px;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer a {
+    top: 20px;
+    position: relative;
+    text-decoration: none;
+}
